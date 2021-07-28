@@ -1,8 +1,9 @@
 # oscp
 oscp
 
+Hydra ftp
 ```
-test
+hydra -t 1 -l admin -P /root/Desktop/password.lst -vV 192.168.1.1 ftp
 ```
 
 
